@@ -7,7 +7,7 @@ function Header(props) {
     return (
         <div>
             <header>
-                <span className='my-name'>Ghassan Al Assadi</span>
+                <h1><span className='my-name'>Ghassan Al Assadi</span></h1>
                 <Navigation
                     currentPage={currentPage}
                     handlePageChange={handlePageChange}
