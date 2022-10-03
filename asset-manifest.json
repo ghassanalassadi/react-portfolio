@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/ghassanalassadi.io/react-portfolio/static/css/main.4ea1642c.css",
+    "main.js": "/ghassanalassadi.io/react-portfolio/static/js/main.41ecc1a2.js",
+    "static/media/professional_readme_generator.png": "/ghassanalassadi.io/react-portfolio/static/media/professional_readme_generator.53eb5202b187bb40282d.png",
+    "static/media/weather_dashboard.png": "/ghassanalassadi.io/react-portfolio/static/media/weather_dashboard.962a73247bb9e19d354c.png",
+    "static/media/my_photo.jpg": "/ghassanalassadi.io/react-portfolio/static/media/my_photo.1928aea68e383be6f03b.jpg",
+    "static/media/work_day_scheduler.png": "/ghassanalassadi.io/react-portfolio/static/media/work_day_scheduler.89086d3490a4ef2a29ca.png",
+    "static/media/text_editor.png": "/ghassanalassadi.io/react-portfolio/static/media/text_editor.21e32fedd0507a74bd2f.png",
+    "static/media/note-taker.png": "/ghassanalassadi.io/react-portfolio/static/media/note-taker.7419e61e4d1853973898.png",
+    "static/media/password_generator.png": "/ghassanalassadi.io/react-portfolio/static/media/password_generator.b7ce7c8d8c7454a5e4e9.png",
+    "index.html": "/ghassanalassadi.io/react-portfolio/index.html",
+    "main.4ea1642c.css.map": "/ghassanalassadi.io/react-portfolio/static/css/main.4ea1642c.css.map",
+    "main.41ecc1a2.js.map": "/ghassanalassadi.io/react-portfolio/static/js/main.41ecc1a2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4ea1642c.css",
+    "static/js/main.41ecc1a2.js"
+  ]
+}
