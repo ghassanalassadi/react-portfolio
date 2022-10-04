@@ -1,15 +1,21 @@
 import React from "react";
+// import {validateEmail} from '../utils/helpers';
 
 function Contact() {
     return (
         <div>
-            <h2>Contact Me</h2>
-            <ul>
-                <li class="input-box">Name: <input type="text" /></li>
-                <li class="input-box">Contact: <input type="text" /></li>
-            </ul>
+            <h1 className="heading">Contact Me</h1>
+            <form>
+                <ul>
+                    <li>Name: <input type="text" required/></li>
+                    <li>Email: <input type="email" required /></li>
+                    <li>Message: <input type="text" required/></li>
+                    <li><input type='submit' value='Submit'/></li>
+                </ul>
+            </form>
         </div>
     );
-};
+}
+;
 
 export default Contact;

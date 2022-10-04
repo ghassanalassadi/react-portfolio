@@ -16,6 +16,12 @@ function Footer() {
                     rel="noopener noreferrer">
                         <img src={require("../assets/linkedin_icon.png")} alt="LinkedIn" className="icon"></img>
                 </a>
+                <a
+                    href="https://stackoverflow.com/users/18257403/ghassanalassadi"
+                    target="_blank"
+                    rel="noopener noreferrer">
+                        <img src={require("../assets/stack_overflow_icon.png")} alt="Stack Overflow" className='icon'></img>
+                    </a>
             </footer>
         </div>
     )
