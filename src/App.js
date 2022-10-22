@@ -6,15 +6,16 @@ import About from './components/About';
 import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
 import Resume from './components/Resume';
+import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
   return (
     <div>
       <Header></Header>
-      <About></About>
-      <Portfolio></Portfolio>
-      <Resume></Resume>
-      <Contact></Contact>
+      <About id='about' />
+      <Portfolio id='portfolio' />
+      <Resume id='resume' />
+      <Contact id='contact' />
       <Footer></Footer>
     </div>
     );

@@ -13,13 +13,13 @@ function Footer() {
                                     href="https://github.com/ghassanalassadi"
                                     target="_blank"
                                     rel="noopener noreferrer">
-                                        <img src={data.githubIcon} alt="GitHub" className="icon"></img>
+                                        <img src={process.env.PUBLIC_URL + data.githubIcon} alt="GitHub" className="icon"></img>
                                 </a>
                                 <a 
                                     href="https://www.linkedin.com/in/ghassan-al-assadi-772428214/"
                                     target="_blank"
                                     rel="noopener noreferrer">
-                                        <img src={data.linkedinIcon} alt="LinkedIn" className="icon"></img>
+                                        <img src={process.env.PUBLIC_URL + data.linkedinIcon} alt="LinkedIn" className="icon"></img>
                                 </a>
                             </footer>
                         </div>
