@@ -1,0 +1,86 @@
+[
+    {
+        "id": 1,
+        "name": "Ghassan Al Assadi",
+        "description": "Full Stack Developer/Engineer",
+        "myImage": "require('images/my_photo.jpg')",
+        "bio": "Hello, My name is Ghassan and I am working towards becoming a full-stack web developer. I am currently enrolled in an online Coding Bootcamp with University of Sydney and Trilogy Education Services. In this bootcamp I have studied various topics surrounding HTML5, CSS and JavaScript and I am looking to furthering my skills by putting them into practice in the web development field.",
+        "email": "ghassanalassadi@outlook.com",
+        "github": "https://github.com/ghassanalassadi",
+        "linkedin": "https://www.linkedin.com/in/ghassan-al-assadi-772428214/",
+        "githubIcon": "/images/github_icon",
+        "linkedinIcon": "/images/linkedin_icon",
+        "projects": [
+            {
+                "id": 2,
+                "title": "Password Generator",
+                "img": "/images/password_generator.png",
+                "github": "https://github.com/ghassanalassadi/password-generator"
+            },
+            {
+                "id": 3,
+                "title": "Professional README Generator",
+                "img": "/images/professional_readme_generator.png",
+                "github": "https://github.com/ghassanalassadi/professional-readme-generator"
+            },
+            {
+                "id": 4,
+                "title": "Work Day Scheduler",
+                "img": "/images/work_day_scheduler.png",
+                "github": "https://github.com/ghassanalassadi/work-day-scheduler"
+            },
+            {
+                "id": 5,
+                "title": "Note Taker",
+                "img": "/images/note-taker.png",
+                "github": "https://github.com/ghassanalassadi/note-taker"
+            },
+            {
+                "id": 6,
+                "title": "Weather Dashboard",
+                "img": "/images/weather_dashboard.png",
+                "github": "https://github.com/ghassanalassadi/weather-dashboard"
+            },
+            {
+                "id": 7,
+                "title": "Text Editor",
+                "img": "/images/text_editor.png",
+                "github": "https://github.com/ghassanalassadi/text-editor"
+            }
+        ],
+        "skills": [
+                {
+                    "id": 8,
+                    "name": "HTML5"
+                },
+                {
+                    "id": 9,
+                    "name": "CSS"
+                },
+                {
+                    "id": 10,
+                    "name": "JavaScript"
+                },
+                {
+                    "id": 11,
+                    "name": "React.js"
+                },
+                {
+                    "id": 12,
+                    "name": "Node.js"
+                },
+                {
+                    "id": 13,
+                    "name": "MySQL"
+                },
+                {
+                    "id": 14,
+                    "name": "MongoDB"
+                },
+                {
+                    "id": 15,
+                    "name": "Git"
+                }
+            ]
+    }
+]

@@ -1,17 +1,15 @@
 import React from "react";
 
 
-function Navigation(props) {
-    const {currentPage, handlePageChange} = props;
-
+function Navigation() {
     return (
         <div>
             <nav>
                 <ul className="flex-row mobile-view">
-                    <li className={currentPage === 'about'}><span onClick={() => handlePageChange('about')}>About</span></li>
-                    <li className={currentPage === 'portfolio'}><span onClick={() => handlePageChange('portfolio')}>Portfolio</span></li>
-                    <li className={currentPage === 'contact'}><span onClick={() => handlePageChange('contact')}>Contact</span></li>
-                    <li className={currentPage === 'resume'}><span onClick={() => handlePageChange('resume')}>Resume</span></li>
+                    <li><span>About</span></li>
+                    <li><span>Portfolio</span></li>
+                    <li><span>Resume</span></li>
+                    <li><span>Contact</span></li>
                 </ul>
             </nav>
         </div>
