@@ -1,9 +1,6 @@
 :root {
-  --ruby-red: #931621;
-  --dark-slate-gray: #28464B;
-  --ming: #326771;
-  --blue-munsell: #2c8c99;
-  --turqoise: #42d9c8;
+  --eerie-black: #211F1C;
+  --jet: #333333
 }
 
 body {
@@ -13,7 +10,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: var(--ruby-red);
+  background-color: var(--jet);
+  color: white;
 }
 
 main {
@@ -21,18 +19,18 @@ main {
 }
 
 header {
-  background-color: var(--blue-munsell);
+  background-color: var(--eerie-black);
   position: sticky;
   top: 0;
   padding: 5px 4px;
 }
 
 nav {
-  background-color: var(--turqoise);
+  background-color: var(--eerie-black);
 }
 
 footer {
-  background-color: var(--ming);
+  background-color: var(--eerie-black);
   position: relative;
   left: 0;
   bottom: 0;
@@ -90,11 +88,6 @@ nav li {
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-.flex-row {
-  display: flex;
-  justify-content: space-evenly;
 }
 
 @media screen and (max-width: 817px) {
