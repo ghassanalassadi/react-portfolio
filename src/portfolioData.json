@@ -12,73 +12,65 @@
         "linkedinIcon": "/images/linkedin_icon.png",
         "projects": [
             {
-                "id": 2,
                 "title": "Password Generator",
                 "img": "/images/password_generator.png",
-                "github": "https://github.com/ghassanalassadi/password-generator"
+                "github": "https://github.com/ghassanalassadi/password-generator",
+                "demo": "https://ghassanalassadi.github.io/password-generator/"
             },
             {
-                "id": 3,
-                "title": "Professional README Generator",
-                "img": "/images/professional_readme_generator.png",
-                "github": "https://github.com/ghassanalassadi/professional-readme-generator"
+                "title": "Recipe Finder",
+                "img": "/images/recipe-finder.png",
+                "github": "https://github.com/ghassanalassadi/recipe-finder",
+                "demo": "https://hayleyarodgers.github.io/recipe-finder/"
             },
             {
-                "id": 4,
                 "title": "Work Day Scheduler",
                 "img": "/images/work_day_scheduler.png",
-                "github": "https://github.com/ghassanalassadi/work-day-scheduler"
+                "github": "https://github.com/ghassanalassadi/work-day-scheduler",
+                "demo": "https://ghassanalassadi.github.io/work-day-scheduler/"
             },
             {
-                "id": 5,
                 "title": "Note Taker",
                 "img": "/images/note-taker.png",
-                "github": "https://github.com/ghassanalassadi/note-taker"
+                "github": "https://github.com/ghassanalassadi/note-taker",
+                "demo": "https://note-taker-by-ghassan.herokuapp.com/"
             },
             {
-                "id": 6,
                 "title": "Weather Dashboard",
                 "img": "/images/weather_dashboard.png",
-                "github": "https://github.com/ghassanalassadi/weather-dashboard"
+                "github": "https://github.com/ghassanalassadi/weather-dashboard",
+                "demo": "https://ghassanalassadi.github.io/weather-dashboard/"
             },
             {
-                "id": 7,
                 "title": "Text Editor",
                 "img": "/images/text_editor.png",
-                "github": "https://github.com/ghassanalassadi/text-editor"
+                "github": "https://github.com/ghassanalassadi/text-editor",
+                "demo": "https://jate-text-editor-ghassan.herokuapp.com/"
             }
         ],
         "skills": [
                 {
-                    "id": 8,
                     "name": "HTML5"
                 },
                 {
-                    "id": 9,
                     "name": "CSS"
                 },
                 {
-                    "id": 10,
                     "name": "JavaScript"
                 },
                 {
-                    "id": 11,
                     "name": "React.js"
                 },
                 {
-                    "id": 12,
                     "name": "Node.js"
                 },
                 {
-                    "id": 13,
                     "name": "MySQL"
                 },
                 {
-                    "id": 14,
                     "name": "MongoDB"
                 },
                 {
-                    "id": 15,
                     "name": "Git"
                 }
             ]

@@ -1,24 +1,24 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
 import portfolioData from '../portfolioData.json';
-import Container from 'react-bootstrap/Container';
+import Button from 'react-bootstrap/Button'
 
 function Portfolio() {
     return (
         <div id="portfolio">
             <h1 className='d-flex justify-content-center align-items-center'>Portfolio</h1>
-            <Container>
                 {
                 portfolioData && portfolioData.map( data => {
                     return (
-                        <div key={data.id}>
+                        <div key={data.id} className='box'>
                             {data.projects && data.projects.map((projectData, i) => {
                                 return (
                                     <div className='projects' key={i}>
-                                                <Card style={{ width: '18rem' }} className='project-grid'>
+                                                <Card style={{ width: '25rem' }} className='project-card'>
                                                 <Card.Body>
-                                                    <Card.Title><strong>{projectData.title}</strong></Card.Title>
-                                                    <Card.Link href={projectData.github}>GitHub</Card.Link>
+                                                    <Card.Title className="card-title">{projectData.title}</Card.Title>
+                                                    <Card.Link href={projectData.github}><Button variant='flat' className='project-button'>GitHub</Button></Card.Link>
+                                                    <Card.Link href={projectData.demo}><Button variant='flat' className='project-button'>Demo</Button></Card.Link>
                                                 </Card.Body>
                                                 <Card.Img variant="top" src={process.env.PUBLIC_URL + projectData.img} className='card-img'/>
                                             </Card>
@@ -30,7 +30,6 @@ function Portfolio() {
                     )
                 })
                 }
-            </Container>
         </div>
     )
 };

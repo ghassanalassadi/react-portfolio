@@ -1,5 +1,6 @@
 import React from "react";
 import portfolioData from '../portfolioData.json';
+import Button from "react-bootstrap/esm/Button";
 
 function Resume() {
     return (
@@ -11,9 +12,9 @@ function Resume() {
                         return (
                             <div key={data.id}>
                                 {
-                                    data.skills && data.skills.map(tech => {
+                                    data.skills && data.skills.map((tech, i) => {
                                         return (
-                                            <div key={tech.id} className='d-flex justify-content-center align-items-center'>
+                                            <div key={i} className='d-flex justify-content-center align-items-center'>
                                                 {tech.name}
                                             </div>
                                         )
@@ -24,10 +25,12 @@ function Resume() {
                     })
                 }
             </div>
-            <div>
-                <a href="../assets/Ghassan Al Assadi (Resume).pdf" download>
-                    <h4 className='d-flex justify-content-center align-items-center'>Download my Resume</h4>
-                </a>
+            <div className="resume-download">
+                    <a href="../assets/Ghassan Al Assadi (Resume).pdf" download>
+                    <Button variant="flat" className="resume-button">
+                        Download my Resume
+                    </Button>
+                    </a>
             </div>
         </div>
     )

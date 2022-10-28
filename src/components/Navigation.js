@@ -9,9 +9,9 @@ function Navigation() {
     const closeMenu = () => setClick(false);
 
     return (
-        <div>
+        <div className="nav-bar">
             <nav>
-                <ul className="flex-row mobile-view">
+                <ul>
                     <li><Link to='about' spy={true} smooth={true} offset={50} duration={500} onClick={closeMenu}><span>About</span></Link></li>
                     <li><Link to='portfolio' spy={true} smooth={true} offset={50} duration={500} onClick={closeMenu}><span>Portfolio</span></Link></li>
                     <li><Link to='resume' spy={true} smooth={true} offset={50} duration={500} onClick={closeMenu}><span>Resume</span></Link></li>

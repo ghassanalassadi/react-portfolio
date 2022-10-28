@@ -1,6 +1,7 @@
 :root {
   --eerie-black: #211F1C;
-  --jet: #333333
+  --jet: #333333;
+  --quick-silver: #A4A4A2;
 }
 
 body {
@@ -40,16 +41,10 @@ footer {
   flex-direction: row;
   justify-content: space-around;
 }
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
-}
-
-nav ul li {
-  display: inline-block;
-  list-style: none;
-  padding: 10px;
-  margin: 10px
 }
 
 ul li {
@@ -60,13 +55,22 @@ nav li {
   cursor: pointer;
 }
 
+nav ul li {
+  display: inline-block;
+  list-style: none;
+  padding: 10px;
+  margin: 10px
+}
+
 .card-title {
   font-weight: bold;
+  font-size: 30px;
 }
 
 .card-img {
-  width: 250px;
+  width: 100%;
   height: 250px;
+  object-fit: cover;
 }
 
 .card-img:hover {
@@ -90,9 +94,42 @@ nav li {
   justify-content: center;
 }
 
-@media screen and (max-width: 817px) {
-  .mobile-view {
-      display: inline;
-      text-align: start;
-    }
+.projects {
+  display: inline-block;
+  margin: 15px;
+}
+
+.box {
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.project-card {
+  background-color: var(--quick-silver);
+}
+
+.project-button {
+  background-color: var(--eerie-black) !important;
+  color: white;
+}
+
+.resume-button {
+  background-color: var(--eerie-black) !important;
+  color: white;
+}
+
+.resume-download {
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.contact p {
+  text-align: center;
+}
+
+.nav-bar {
+  text-align: center;
 }
