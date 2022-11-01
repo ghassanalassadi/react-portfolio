@@ -26,11 +26,9 @@ function Resume() {
                 }
             </div>
             <div className="resume-download">
-                    <a href="/resume/Ghassan Al Assadi (Resume).pdf" download>
-                    <Button variant="flat" className="resume-button">
+                    <Button variant="flat" className="resume-button" href="/resume/Ghassan Al Assadi (Resume).pdf" download>
                         Download my Resume
                     </Button>
-                    </a>
             </div>
         </div>
     )
