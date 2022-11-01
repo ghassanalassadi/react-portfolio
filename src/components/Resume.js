@@ -5,7 +5,7 @@ import {saveAs} from 'file-saver';
 
 function Resume() {
     const saveFile = () => {
-        saveAs("/resume/Ghassan Al Assadi (Resume).pdf", "Ghassan Al Assadi (Resume).pdf");
+        saveAs("./resume/Ghassan Al Assadi (Resume).pdf", "Ghassan Al Assadi (Resume).pdf");
     } 
     
     return (
