@@ -14,7 +14,7 @@ function Portfolio() {
                             {data.projects && data.projects.map((projectData, i) => {
                                 return (
                                     <div className='projects' key={i}>
-                                                <Card style={{ width: '25rem' }} className='project-card'>
+                                                <Card style={{ width: '22rem' }} className='project-card'>
                                                 <Card.Body>
                                                     <Card.Title className="card-title">{projectData.title}</Card.Title>
                                                     <Card.Link href={projectData.github}><Button variant='flat' className='project-button'>GitHub</Button></Card.Link>

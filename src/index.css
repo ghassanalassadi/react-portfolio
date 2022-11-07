@@ -11,8 +11,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: var(--jet);
   color: white;
+  background: radial-gradient(var(--jet), var(--quick-silver));
 }
 
 main {
@@ -101,13 +101,15 @@ nav ul li {
 
 .projects {
   display: inline-block;
-  margin: 15px;
+  margin: 5px;
 }
 
 .box {
-  width: 70%;
+  min-width: 100%;
   margin: 0 auto;
+  font-size: 0;
   text-align: center;
+  
 }
 
 .project-card {
@@ -137,4 +139,13 @@ nav ul li {
 
 .nav-bar {
   text-align: center;
+}
+
+@media only screen and (max-width: 998px) {
+  nav ul li {
+      display: inline-block;
+      list-style: none;
+      padding: 7px;
+      margin: 7px
+    }
 }

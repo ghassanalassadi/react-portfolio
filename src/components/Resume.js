@@ -11,6 +11,7 @@ function Resume() {
     return (
         <div id="resume">
             <h1 className="heading d-flex justify-content-center align-items-center">My Resume</h1>
+            <h2 className="heading d-flex justify-content-center align-items-center">My Tech Stack:</h2>
             <div className="resume d-flex justify-content-center align-items-center">
                 {
                     portfolioData && portfolioData.map(data => {
